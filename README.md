@@ -14,7 +14,9 @@ NLP lib used for creating a Tf-idf model
 * tweepy
 Lib create a read-only connection with a Tweeter account
 
-Other libraries were used for plotting graphs or (pre)processing the data
+Other libraries were used for plotting graphs or (pre)processing the data.
+
+### Bot logic
 
 This chatbot receives a sentence as input and processes a NER using spacy for detecting names, organizations and locations.
 
@@ -23,6 +25,8 @@ The next movement is to run a search on Tweeter looking for 1000 tweets containi
 After that, a WordCloud and a barchart are generated with the most commom words found in the collected tweets. 
 
 Finally, other graphs are plotted with the most important words in the tweets (using the Tf-idf model) and the most cited entities (applying NER on collected tweets).
+
+### Screenshots
 
 These screenshots were taken from the execution of the bot Gossip Guy (gossip_guy_bot) created for this code. 
 
